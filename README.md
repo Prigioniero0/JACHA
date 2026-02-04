@@ -30,3 +30,8 @@ More feature will be added in future releases.
 
 All suggestions, issues and bugs are welcomed, since i'm not a programmer and this is made with the help of 2 different AIs (For comparison and double checks).
 
+
+<img width="1275" height="762" alt="image" src="https://github.com/user-attachments/assets/8c4d4cf1-c85c-4a7d-bb7c-d7b4c68a563a" />
+
+
+
