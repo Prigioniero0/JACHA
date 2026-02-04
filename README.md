@@ -15,10 +15,15 @@ once finished it will prompt to open after closing the window, it will then open
 FEATURES:
 
 integrated nmap CLI (nmap must be installed in the system or in the same folder where this program is installed)
+
 reconnaissance:  Wois, DNS lookup, Reverse DNS Lookup
+
 Net Discovery: Discover alive hosts in a network
+
 Subdomain: crt.sh, sublist3r, knockpy and an integrated python bruteforcer with more than 2000 words an common subdoimains
+
 File Crypto: Encrypt any file or zipped folder with a strong encryption and decrypt
+
 Local Server: Start a local server on a given port and path.
 
 More feature will be added in future releases.
