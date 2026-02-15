@@ -1,0 +1,24 @@
+:root {
+  --neon-green: #0f0;
+  --cyber-bg: #050505;
+  --text-primary: #e0e0e0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--cyber-bg);
+  color: var(--text-primary);
+  font-family: 'Courier New', Courier, monospace; /* Placeholder for cyber font */
+}
+
+.app-container {
+  padding: 20px;
+  border: 1px solid var(--neon-green);
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--neon-green);
+  text-shadow: 0 0 10px var(--neon-green);
+}
