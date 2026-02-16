@@ -1,0 +1,71 @@
+.encryption-container {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: var(--neon-cyan);
+}
+
+.encryption-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.mode-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+.mode-toggle .cyber-btn {
+    opacity: 0.5;
+}
+
+.mode-toggle .cyber-btn.active {
+    opacity: 1;
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.crypto-box {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--glass-border);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.status-display {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Consolas', monospace;
+    text-align: center;
+}
+
+.cyber-btn.large {
+    padding: 15px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.info-box {
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0.8;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid var(--glass-border);
+    padding-top: 20px;
+}

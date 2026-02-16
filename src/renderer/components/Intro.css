@@ -1,0 +1,107 @@
+.intro-container {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #000;
+}
+
+.intro-container.closed {
+    /* Initially visible */
+}
+
+/* Doors */
+.door-left,
+.door-right {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('../assets/door_final.jpg');
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8) inset;
+}
+
+.door-left {
+    left: 0;
+    background-position: left center;
+    border-right: 2px solid rgba(0, 243, 255, 0.3);
+}
+
+.door-right {
+    right: 0;
+    background-position: right center;
+    border-left: 2px solid rgba(0, 243, 255, 0.3);
+}
+
+/* Open State */
+.intro-container.open .door-left {
+    transform: translateX(-100%);
+}
+
+.intro-container.open .door-right {
+    transform: translateX(100%);
+}
+
+/* Central Icon */
+.intro-icon-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 10000;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.intro-icon {
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0 0 20px var(--neon-cyan));
+    transition: all 0.5s ease;
+    animation: pulse 2s infinite;
+}
+
+.intro-icon:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 40px var(--neon-green));
+}
+
+.intro-container.open .intro-icon-container {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
+
+/* Door Light Gap */
+.door-gap {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: var(--neon-cyan);
+    box-shadow: 0 0 20px var(--neon-cyan);
+    z-index: 9999;
+    transition: opacity 0.5s;
+}
+
+.intro-container.open .door-gap {
+    opacity: 0;
+}
