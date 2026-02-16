@@ -46,6 +46,7 @@ All suggestions, issues and bugs are welcomed, since i'm not a programmer and th
 <img width="1275" height="762" alt="image" src="https://github.com/user-attachments/assets/8c4d4cf1-c85c-4a7d-bb7c-d7b4c68a563a" />
 
 
-<img width="1277" height="748" alt="image" src="https://github.com/user-attachments/assets/51596b25-38a4-451d-86ea-df1b52746059" />
+<img width="1276" height="751" alt="image" src="https://github.com/user-attachments/assets/4f6386bb-36c1-4afe-8a4c-18ff1df3db96" />
+/>
 
 
