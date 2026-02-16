@@ -1,10 +1,12 @@
-# JACHA Console V1.2.1
+# JACHA Console V1.6.1
 
 CHANGELOG:
 
-Added SSH client/Server section and Website scanner Section that will scan website for robots.txt, CMS; and other public info
+Added HTTPS client/Server section;
+Integrated Nikto in Website scanner section
+Added steganography section
 
-Just A Cool Hacking Application is an experimental penetration testing application for windows, a work in progress to deliver different tools in a single, user friendly and cool Application. This project is developed with AI Antigravity and Chatgpt, so feedback, bugs and issues are welcome
+Just A Cool Hacking Application is an experimental hacking multitool for windows, a work in progress to deliver different tools in a single, user friendly and cool Application. This project is developed with AI Antigravity and Chatgpt, so feedback, bugs and issues are welcome
 
 DEPENDENCIES
 
@@ -27,6 +29,14 @@ Subdomain: crt.sh, sublist3r, knockpy and an integrated python bruteforcer with 
 File Crypto: Encrypt any file or zipped folder with a strong encryption and decrypt
 
 Local Server: Start a local server on a given port and path.
+
+SSH Tool: Client and Server SSH tool
+
+HTTPS Connector: Client and Server HTTPS Connector
+
+Steganography: Steghide for windows
+
+Website scanner: Nikto and basic scanners, to detect CMS, robots.txt and more
 
 More feature will be added in future releases.
 
