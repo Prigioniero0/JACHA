@@ -12,7 +12,7 @@ Added in https and ssh server configuration the oprion to choose from windows or
 Added Packet Crafter section;
 Fixed UI bug that would cause the app to break if the termina output lenght was too long
 
-Raven Console is an experimental Cybersecurity multitool for windows and linux, a work in progress to deliver different tools in a single, user friendly and cool Application. This project is developed with AI Antigravity and Chatgpt, so feedback, bugs and issues are welcome
+JACHA Console is an experimental Cybersecurity multitool for windows and linux, a work in progress to deliver different tools in a single, user friendly and cool Application. This project is developed with AI Antigravity and Chatgpt, so feedback, bugs and issues are welcome
 
 DEPENDENCIES
 
