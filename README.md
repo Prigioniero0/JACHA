@@ -55,7 +55,7 @@ Mac Change Section: change mac or ip on the system
 Metasploit Section (Just for Linux) integrated metasploit terminal
 
 
-[https://youtu.be/Vbxvh31tLF0?si=dCwS5_BXzrWfG7sB](https://www.youtube.com/watch?v=I_G9Zmm1lPo)
+https://www.youtube.com/watch?v=I_G9Zmm1lPo
 
 
 More feature will be added in future releases.
