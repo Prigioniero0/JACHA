@@ -1,30 +1,46 @@
-# JACHA Console V1.10.0
-
-JACHA Console V1.10.0 Windows/Linux Version
+# JACHA Console V1.11.9 Linux
 
 CHANGELOG:
 
-Added mac changer section and metasploit integration, this last one just for the linux version.
-Modified Local server section, now allowing more than one local server at the same time and with terminal logging
-fixed minor bugs
+a whole new and refined UI 
+added multiple window mode allowing you to operate with different sections at the same time
+added Bettercap section
+added cypher/encoding section
+added netcat section
+added smb enumeration section
+added sqlmap integrated section
+added whatweb in website scanner section
+added Webdir scan section with dirb, dirbuster and gobuster 
+added Hashcat section
+added a new Main Console in the main window, if opened offers the following:
+ modular terminal similar to msf, choose the target, the module and run the scan
+ there are 2 main scans available for now:
 
-Added in https and ssh server configuration the oprion to choose from windows or linux script to generate;
-Added Packet Crafter section;
-Fixed UI bug that would cause the app to break if the termina output lenght was too long
+   surface-mapper: this is a module to scan websites, webapp and public ips, with a predifend set of tools and commands, it will log
+   everything in the main console temrinal and open a interactive graph map with the detailes and updates it in real time untill the scan 
+   is over, once finished you can click on an ip or domain element and do other scans or open sections of the application targeting 
+   that entity.
+   
+   lan-scan: this module does not need a target, just run this module and it will ask you to select the interface you want to scan, it will ask 
+   if fast or stealth scan they will use different set of commands to try avoiding detection, it will behave the same as the above scan with 
+   terminal logging and interactive map
+
+In both you can export the results of the scan for reporting, laso suggesing to copy all the terminal logs cause there could be something that is not displayed in the map.
+
+
 
 JACHA Console is an experimental Cybersecurity multitool for windows and linux, a work in progress to deliver different tools in a single, user friendly and cool Application. This project is developed with AI Antigravity and Chatgpt, so feedback, bugs and issues are welcome
 
 DEPENDENCIES
 
-Python and python3 with python3-pip or pip4 latest release Nmap latest release
+will be installed when running the sudo ./install.sh command
 
 INSTALLATION
 
 The Zip File contains the Linux Versione while the exe is the windows version.
 
-Download and extract the zip file, give it full permission and execute with ./jacha-console
-
-Download the exe file, double click it, proceed with installation, then once opened click on the upgrade app and install dependencies.
+Download and extract the zip file, give it full permission and execute the sudo ./install command
+this will install the dependencies and install the application so you can run it from every terminal position
 
 FEATURES:
 
@@ -54,9 +70,30 @@ Mac Change Section: change mac or ip on the system
 
 Metasploit Section (Just for Linux) integrated metasploit terminal
 
+Netcat Section: (Just for Linux) 
 
-https://www.youtube.com/watch?v=I_G9Zmm1lPo
+SMB-enum Section: (Just for Linux)
 
+SQL Injection Section: (Just for Linux)
+
+Whatweb Section: (Just for Linux)
+
+Webdir Section: (Just for Linux)
+
+Hashcat Section: (Just for Linux)
+
+cypher/encoding Section: (Just for Linux)
+
+Bettercap Section Section: (Just for Linux)
+
+Main Console:  (Just for Linux)
+
+More feature will be added in future releases.
+
+Demo
+https://www.youtube.com/watch?v=waDQChjVkrw
+
+All suggestions, issues and bugs are welcomed, since i'm not a programmer and this is made with the help of 2 different AIs (For comparison and double checks).
 
 More feature will be added in future releases.
 
@@ -65,8 +102,6 @@ All suggestions, issues and bugs are welcomed, since i'm not a programmer and th
 
 <img width="1275" height="762" alt="image" src="https://github.com/user-attachments/assets/8c4d4cf1-c85c-4a7d-bb7c-d7b4c68a563a" />
 
-
-<img width="1276" height="751" alt="image" src="https://github.com/user-attachments/assets/4f6386bb-36c1-4afe-8a4c-18ff1df3db96" />
-/>
+<img width="709" height="470" alt="image" src="https://github.com/user-attachments/assets/64efc6f6-d622-41fb-9cc2-459579837917" />
 
 
